@@ -3,5 +3,5 @@ WORKDIR /app
 COPY . /app
 RUN pip install --trusted-host pypi.pythong.org -r requirements.txt
 EXPOSE 8080
-CMD ["python", "code.py"]
+CMD ["python", "app/code.py"]
 
